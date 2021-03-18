@@ -10,6 +10,18 @@
     #contact .contact-card p {
         font-size: 1rem;
     }
+    #contact .social-medias p {
+        display: none;
+    }
+    #contact .social-medias a {
+        margin: 0 .4rem;
+        padding: 0;
+    }
+    #contact .social-medias a img {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
 }
 @media (max-width: 480px) {
     #contact .contact-card {
@@ -19,12 +31,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
     #contact .contact-card img {
         width: 60vw;
         height: 60vw;
     }
+    #contact .social-medias {
+        margin-top: -30px;
+    }
     #contact .social-medias p {
         display: none;
+    }
+    #contact .social-medias a {
+        margin: 0;
+        padding: 0;
+    }
+    #contact .social-medias a img {
+        margin: 0 .4rem;
+        padding: 0;
     }
 }

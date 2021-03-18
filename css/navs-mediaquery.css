@@ -13,5 +13,11 @@
         margin: 0;
         padding: 0;
         justify-content: center;
+        flex-wrap: wrap;
+    }
+    #main-nav ul li {
+        font-size: 1rem;
+        height: 30px;
+        padding: 0 .4rem;
     }
 }

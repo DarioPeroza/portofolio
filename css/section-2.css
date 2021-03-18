@@ -26,12 +26,14 @@
     margin: 0;
 }
 #projects #projects-container {
+    overflow-y: hidden;
     width: 100%;
     height: 100%;
     grid-column: 1/4;
     grid-row: 2/5;
 }
 #projects .projects-container {
+    overflow-y: hidden;
     height: 100%;
     display: flex;
     justify-content: flex-start;
